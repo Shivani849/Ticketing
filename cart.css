@@ -1,0 +1,169 @@
+.nav-bar{
+    display:flex;
+    justify-content:flex-end;
+    width:100%;
+    background-color:rgb(20, 19, 19);
+    border-color:darkorange ;
+    border-style: solid;
+    position: fixed;
+    top:0;
+    right:0;
+}
+.nav-bar a{
+    text-decoration: none;
+    color:darkgray;
+    padding:12px;
+    border-radius: 2px;
+}
+.nav-bar a:hover{
+    color:darkorange;
+    box-shadow: 0px 0px 2px 2px rgb(56, 52, 52);
+    
+}
+.intro {
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.p1 {
+    font-family: fantasy;
+    font-size: 25px;
+    color: rgb(90, 88, 88)
+ }
+
+ .cart {
+    background-color:white;
+    width : 1200px;
+    height: 235px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;    
+    border-radius: 5px;
+    border-color: darkgray;
+    box-shadow: 1.5px 1.5px 2px 2px #c4c0c0;
+ }
+
+ .ticket-container {
+     display: grid;
+     grid-template-columns: 470px 195px 115px 225px 145px 20px;
+     grid-gap: 5px;
+ }
+
+ .ticket-name {
+    background-color:white;
+    width:450px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding: 10px;
+    /*border-radius: 5px;*/
+   /* box-shadow: 0.5px 0.5px 1.5px 1.5px #eeebeb;*/
+    text-align: left;
+ }
+
+ #namep1 {
+     font-size: 25px;
+     color: blue;
+     font-weight: bold;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+ #namep2 {
+     font-size: 17px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: dimgray;
+ }
+
+ #namep3 {
+     font-size: 15px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: dimgray;
+ }
+
+ #namep4 {
+     font-size: 15px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: dimgray;
+ }
+
+ .ticket-id {
+    background-color:white;
+    width:175px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-align: center;
+    padding: 10px;
+    /*border-radius: 5px;*/
+   /* box-shadow: 0.5px 0.5px 1.5px 1.5px #eeebeb;*/
+ }
+
+ #idp1 {
+     font-size: 18px;
+ }
+
+ .ticket-qty {
+    background-color:white;
+    width:115px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-align: center;
+    /*border-radius: 5px;*/
+   /* box-shadow: 0.5px 0.5px 1.5px 1.5px #eeebeb;*/
+ }
+
+ #qtyp1 {
+     font-size: 18px;
+ }
+
+ .ticket-price {
+    background-color:white;
+    width:225px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    /*border-radius: 5px;*/
+    /*box-shadow: 0.5px 0.5px 1.5px 1.5px #eeebeb;*/
+ }
+
+ #pricep1 {
+     font-size: 18px;
+ }
+
+ .ticket-cancel {
+    background-color:white;
+    width:145px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    /*border-radius: 5px;*/
+    
+ }
+ #button {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    border-top: 20px;
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+ }
+
+ .callout {
+     width:20px;
+     height:30px;
+ }
+
+ 
